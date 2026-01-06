@@ -1,0 +1,22 @@
+2025-12-29T00:02:30.823+05:30  INFO 18896 --- [Logger_slf4j] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-12-29T00:02:30.828+05:30  INFO 18896 --- [Logger_slf4j] [Thread-21] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-29T00:02:31.086+05:30  INFO 18896 --- [Logger_slf4j] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2025-12-29T00:02:31.121+05:30  INFO 18896 --- [Logger_slf4j] [restartedMain] c.example.demo.LoggerSlf4jApplication    : Starting LoggerSlf4jApplication using Java 17.0.11 with PID 18896 (D:\java training\SpringBoot\Logger_slf4j\target\classes started by palv7 in D:\java training\SpringBoot\Logger_slf4j)
+2025-12-29T00:02:31.131+05:30  INFO 18896 --- [Logger_slf4j] [restartedMain] c.example.demo.LoggerSlf4jApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-12-29T00:02:31.199+05:30  INFO 18896 --- [Logger_slf4j] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2025-12-29T00:02:31.199+05:30  INFO 18896 --- [Logger_slf4j] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-29T00:02:31.199+05:30  INFO 18896 --- [Logger_slf4j] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2025-12-29T00:02:31.211+05:30  INFO 18896 --- [Logger_slf4j] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 79 ms
+2025-12-29T00:02:31.248+05:30  INFO 18896 --- [Logger_slf4j] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2025-12-29T00:02:31.250+05:30  INFO 18896 --- [Logger_slf4j] [restartedMain] c.example.demo.LoggerSlf4jApplication    : Started LoggerSlf4jApplication in 0.142 seconds (process running for 964.239)
+2025-12-29T00:02:31.250+05:30  INFO 18896 --- [Logger_slf4j] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-12-29T00:03:14.571+05:30  INFO 18896 --- [Logger_slf4j] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-29T00:03:14.572+05:30  INFO 18896 --- [Logger_slf4j] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-12-29T00:03:14.574+05:30  INFO 18896 --- [Logger_slf4j] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-12-29T00:03:14.608+05:30  INFO 18896 --- [Logger_slf4j] [http-nio-8080-exec-1] com.example.demo.TestController          : MY log info is working
+2025-12-29T00:03:14.609+05:30  WARN 18896 --- [Logger_slf4j] [http-nio-8080-exec-1] com.example.demo.TestController          : MY log warn is working
+2025-12-29T00:03:14.609+05:30 ERROR 18896 --- [Logger_slf4j] [http-nio-8080-exec-1] com.example.demo.TestController          : MY log error is working
+2025-12-29T00:03:14.609+05:30  INFO 18896 --- [Logger_slf4j] [http-nio-8080-exec-1] com.example.demo.TestController          : API is successful....
+2025-12-29T01:44:41.362+05:30  INFO 18896 --- [Logger_slf4j] [RMI TCP Connection(121)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-12-29T01:44:41.377+05:30  INFO 18896 --- [Logger_slf4j] [RMI TCP Connection(121)-127.0.0.1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-29T01:44:41.877+05:30  INFO 18896 --- [Logger_slf4j] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
